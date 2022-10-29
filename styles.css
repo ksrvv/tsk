@@ -5,18 +5,19 @@
     box-sizing: border-box;
 
 }
-
-.header{  
-    
+body{
+    /* width: 100vw;
+    height: 100vh; */
+}
+.header{    
+     width: 100vw;
+    height: 160px;   
     position:fixed;
     left:0px;
     top: 0px;
-   
-
 }
 .header-content{
-    width: 100vw;
-    height: 160px;
+
      background-color:rgba(24, 24, 27,0.6);
      display: flex;
      flex-direction: row;
@@ -67,7 +68,7 @@
 
 
 .section{
- width: 100vw;
+    width: 100vw;
     height: 100vh;
     background-color: #18181B;
     color:#FFFFFF;

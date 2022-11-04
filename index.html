@@ -1,45 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1180, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>zabaleraa.com</title>
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=1180, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>zabaleraa.com</title>
+
 </head>
+
 <body>
-    <div class="header"> 
-   <div class="header-content">
-     <div class="logo">
-           <p class="logo-text">zaba</p>
-        <p class="logo-text purple">leraa</p> 
-
-       
-        </div> 
-        <nav class="nav">
-            <ul>
-                <li> <a class="nav-item purple">home</a></li>
-                <li><a class="nav-item">work</a></li>
-                <li><a class="nav-item">about me</a></li>
-                <li> <a class="nav-item">contact</a></li>
-              </ul>
-        </nav>
-   </div>
-           
-        
-
+  <div class="header">
+    <div class="header-content">
+      <div class="logo">
+        <p class="logo-text">zaba</p>
+        <p class="logo-text purple">leraa</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li> <a class="nav-item purple">home</a></li>
+          <li><a class="nav-item">work</a></li>
+          <li><a class="nav-item">about me</a></li>
+          <li> <a class="nav-item">contact</a></li>
+        </ul>
+      </nav>
     </div>
-      <div class="section section-1">
-        <!-- section-1 можно перенести в section наверное -->
-        <h1 class="main-section-h1">Valeriya Zabavskaya</h1>
-        <p class="body-text">UX/UI Designer with enginieering background based in Minsk</p>
+  </div>
+  <div class="section section-1">
+    <!-- section-1 можно перенести в section наверное -->
+    <h1 class="main-section-h1">Valeriya Zabavskaya</h1>
+    <p class="body-text">UX/UI Designer with enginieering background based in Minsk</p>
+  </div>
+  <div class="section ">
+
+    <div class="cards">
+      <div class="card">
+        <img class="image" alt="section image" src="11.svg">
+        <div class="top">
+          <h2 class="young-by">Young.by</h2>
+          <a class="card-link card-text"> Show project →</a>
+        </div>
+        <p class="card-text">An educational project that makes tutoring more accessible.</p>
       </div>
-      <div class="section section-1">
-        <!-- section-1 можно перенести в section наверное -->
-        <h1 class="main-section-h1">Valeriya Zabavskaya</h1>
-        <p class="body-text">UX/UI Designer with enginieering background based in Minsk</p>
+
+      <div class="card">
+        <img class="image" alt="section image" src="12.svg">
+        <div class="top">
+          <h2>Twedding</h2>
+          <a class="card-link card-text disabled">In process</a>
+        </div>
+        <p class="card-text">Ceremony checklist app for a wedding venue.</p>
       </div>
-     
+      <div class="card" onclick="getToResume()">
+        <img class="image" alt="section image" src="13.svg">
+        <div class="top">
+          <h2>CV</h2>
+          <a class="card-link card-text disabled"></a>
+        </div>
+        <p class="card-text">Here’s my resume in pdf format so you can download it.</p>
+      </div>
+      <div class="card">
+        <img class="image" alt="section image" src="14.svg">
+        <div class="top">
+          <h2></h2>
+          <a class="card-link card-text disabled"></a>
+        </div>
+        <p class="card-text will-be-edited">The portfolio will be replenished, new projects are coming soon!</p>
+      </div>
+    </div>
+  </div>
+  <div class="section skills">
+    <h1 class="skills-title">Professional experience and education</h1>
+    <!--  card -->
+    <div class="skill-card-header skill-card">
+      <div class="text">
+        <p class='skill-card-header-text'>Product Designer @Young.by</p>
+        <p class='skill-card-header-text duration'>July 2022-Present</p>
+      </div>
+      <button class="skills-card-header-button" id="youngButton" onclick="expandSkillCard(this)"><img class="icon"
+          src="add.png"></img></button>
+    </div>
+    <div class="skill-card-body skill-card hidden" id="young">
+      <div class="location">
+        <image src="location-pin.svg"></image>
+        <p class="location-text small-body-text">Minsk, Belarus</p>
+      </div>
+      <div class="skill-description">
+        <div class="skill-description-items">
+          <p class="medium-body-text">Sole product designer for young.by on mobile platforms (i.e) iOS, Android.
+            Designed the product in 2022 onboarding ~XXk users into mobile platforms.</p>
+            <p class="medium-body-text">
+              &#8226 Test for intuitivity and experience.
+              <br>&#8226 Create prototypes for mobile app and website.
+              <br>&#8226 Designing graphic interfaces for website, app.
+              <br>&#8226 Designed company's logo.
+              <br>&#8226 Making creatives for advertising.
+              </p>
+          <div class="skill-visualization-container">
+            <div class="skill-visualization-item small-body-text">
+              Figma
+            </div>
+            <div class="skill-visualization-item small-body-text">
+              Adobe Photoshop
+            </div>
+            <div class="skill-visualization-item small-body-text">
+              Adobe Illustrator
+            </div>
+          </div>
+        </div>
+        <image src="Group 129.svg"></image>
+      </div>
+    </div>
+    <!-- end  card -->
+    <!--  card -->
+    <div class="skill-card-header skill-card">
+      <div class="text">
+        <p class='skill-card-header-text'>Junior Account Manager @TradeicsBel</p>
+        <p class='skill-card-header-text duration'>June 2022-September 2022</p>
+      </div>
+      <button class="skills-card-header-button" id="tradeicsButton" onclick="expandSkillCard(this)"><img class="icon"
+          src="add.png"></img></button>
+    </div>
+    <div class="skill-card-body skill-card hidden" id="tradeics">
+      <div class="location">
+        <image src="location-pin.svg"></image>
+        <p class="location-text small-body-text">Minsk, Belarus</p>
+      </div>
+      <div class="skill-description">
+        <div class="skill-description-items">
+          <p class="medium-body-text">
+            &#8226 Prepared and submitted weekly/monthly reports.
+            <br>&#8226 Assisted in the processing of balance sheets, income statements and
+            other financial statements according to legal and company accounting and financial guidelines.
+            <br>&#8226 Posted and processed journal entries to ensure all business
+            transactions are recorded.
+            </p>
+        </div>
+        <image src="Ellipse 3.svg"></image>
+      </div>
+    </div>
+    <!-- end -->
+    <!--  card -->
+    <div class="skill-card-header skill-card">
+      <div class="text">
+        <p class='skill-card-header-text'>Graphic Designer & Video creator</p>
+        <p class='skill-card-header-text duration'>2018-2019</p>
+      </div>
+      <button class="skills-card-header-button" id="youTubeButton" onclick="expandSkillCard(this)"><img class="icon"
+          src="add.png"></img></button>
+    </div>
+    <div class="skill-card-body skill-card hidden" id="youTube">
+      <div class="skill-description">
+        <div class="skill-description-items">
+          <p class="medium-body-text">Youtube channel 5.87 subscribers. 1 385 055 views in total. Produced 36 videos using Adobe Photoshop and Adobe Premiere Pro. Was doing it for 1 year.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+    <!-- STUDY -->
+    <!--  card -->
+    <div class="skill-card-header skill-card study-card-header">
+      <div class="text">
+        <p class='skill-card-header-text'>Bachelor’s degree @Belarusian State University of Informatics and Radioelectronics</p>
+        <p class='skill-card-header-text duration'>2019-2023</p>
+      </div>
+      <button class="skills-card-header-button" id="bsuirButton" onclick="expandSkillCard(this)"><img class="icon"
+          src="add.png"></img></button>
+    </div>
+    <div class="skill-card-body skill-card hidden" id="bsuir">
+      <div class="location">
+        <image src="location-pin.svg"></image>
+        <p class="location-text small-body-text">Minsk, Belarus</p>
+      </div>
+      <div class="skill-description">
+        <div class="skill-description-items">
+          <p class="medium-body-text">Faculty of Computer-Aided Design. Bachelor's degree in Engineering. Specialty -Engineering and Psychology in IT.
+            </p>
+        </div>
+        <image src="Ellipse 2.svg"></image>
+      </div>
+    </div>
+    <!-- end -->
+    <!--  card -->
+    <div class="skill-card-header skill-card study-card-header">
+      <div class="text">
+        <p class='skill-card-header-text'>User Experince (UX) Design @Google via Coursera</p>
+      </div>
+    </div>
+    <!-- end -->
+    <!--  card -->
+    <div class="skill-card-header skill-card study-card-header">
+      <div class="text">
+        <p class='skill-card-header-text'>Figma Web desing. UX/UI Basics@ Udemy.com </p>
+      </div>
+    </div>  
+    <!-- end -->
+  </div>
+  <div class="section section-contact-info">
+    <div class="contact-info">
+      <!-- section-1 можно перенести в section наверное -->
+    <h3 class="main-section-h1">Let’s connect!</h3>
+    <p class="body-text contact-section-body-text">Have an exciting project you need help with?
+      Send me an email or contact me in socials below!</p>
+      <a class="mail-link " href="mailto:zabaleraa@gmail.com">zabaleraa@gmail.com</a>
+    </div>
+    <div class="links">
+      <div class="link-item main-section-h1">
+<img src="linkedin.svg">
+<a class="contact-link" href="https://www.linkedin.com/in/zabaleraa/" target="_blank">LinkedIn</a>
+      </div>
+      <div class="link-item">
+        <img src="telegram.svg">
+<a class="contact-link" href="https://t.me/zabaleraa" target="_blank">Telegram</a>
+      </div>
+    </div>
+  </div>
+  <div class="section "> 
+    <p class=footer-text>© 2022 Valeriya Zabavskaya made with love in Minsk<br>Developed by @ektrshha</p>
+  </div>
+  <script src="script.js"></script>
+
 </body>
+
 </html>

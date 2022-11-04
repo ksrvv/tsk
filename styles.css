@@ -369,7 +369,7 @@ a:visited{
     text-decoration: none;
 }
 
-@media(max-width:967px){
+@media only screen and(max-width:967px){
     .section-contact-info{
         display:flex;
         flex-direction: column;

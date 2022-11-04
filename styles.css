@@ -373,18 +373,19 @@ a:visited{
     cursor: pointer;
     text-decoration: none;
 }
+/* Smartphones (вертикальная) ----------- */
+@media only screen and (max-width: 500px) {
 
-@media all and (max-width:967px){
-    html{
-        overflow-x: hidden;
-        width: 100vw;
+    .section-contact-info{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 9%;
+    
+      }
     }
-    body{
-        overflow-x: hidden;
-        width: 100%;
-        /* width: 100vw; */
-        /* height: 100vh; */
-    }
+@media  (max-width:967px){
+    
     .section-contact-info{
         display:flex;
         flex-direction: column;

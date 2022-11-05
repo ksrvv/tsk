@@ -557,7 +557,7 @@ a:visited{
 
 }
 /* Smartphones (вертикальная) ----------- */
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
     .section{
         width: 100%;
         height: auto;

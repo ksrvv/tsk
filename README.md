@@ -1,2 +1,2 @@
 # Personal portfolio landing page 
-Look more on 
+Look more on https://ksrvv.github.io/zabaleraa-landingPage/

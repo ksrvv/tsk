@@ -6,6 +6,11 @@
   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="jquery.malihu.PageScroll2id.min.js"></script>
+  <script src="script.js"></script>
+  <script src="scroll.js"></script>
   <title>zabaleraa.com</title>
 
 </head>
@@ -19,24 +24,24 @@
       </div>
       <nav class="nav">
         <ul>
-          <li> <a class="nav-item purple">home</a></li>
-          <li><a class="nav-item">work</a></li>
-          <li><a class="nav-item">about me</a></li>
-          <li> <a class="nav-item">contact</a></li>
+          <li> <a class="nav-item purple" href="#main-section">home</a></li>
+          <li><a class="nav-item" href="#projects-section">work</a></li>
+          <li><a class="nav-item" href="#skills-section">about me</a></li>
+          <li> <a class="nav-item" href="#contacts-section">contact</a></li>
         </ul>
       </nav>
     </div>
   </div>
-  <div class="section section-1">
+  <div class="section section-1" id="main-section">
     <!-- section-1 можно перенести в section наверное -->
     <h1 class="main-section-h1">Valeriya Zabavskaya</h1>
     <p class="body-text">UX/UI Designer with enginieering background based in Minsk</p>
   </div>
-  <div class="section ">
+  <div class="section " id="projects-section">
 
     <div class="cards">
       <div class="card">
-        <img class="image" alt="section image" src="11.svg">
+        <img class="image" alt="section image" src="../sourse/11.svg">
         <div class="top">
           <h2 class="young-by">Young.by</h2>
           <a class="card-link card-text"> Show project →</a>
@@ -45,7 +50,7 @@
       </div>
 
       <div class="card">
-        <img class="image" alt="section image" src="12.svg">
+        <img class="image" alt="section image" src="../sourse/12.svg">
         <div class="top">
           <h2>Twedding</h2>
           <a class="card-link card-text disabled">In process</a>
@@ -53,7 +58,7 @@
         <p class="card-text">Ceremony checklist app for a wedding venue.</p>
       </div>
       <div class="card" onclick="getToResume()">
-        <img class="image" alt="section image" src="13.svg">
+        <img class="image" alt="section image" src="../sourse/13.svg">
         <div class="top">
           <h2>CV</h2>
           <a class="card-link card-text disabled"></a>
@@ -61,7 +66,7 @@
         <p class="card-text">Here’s my resume in pdf format so you can download it.</p>
       </div>
       <div class="card">
-        <img class="image" alt="section image" src="14.svg">
+        <img class="image" alt="section image" src="../sourse/14.svg">
         <div class="top">
           <h2></h2>
           <a class="card-link card-text disabled"></a>
@@ -70,7 +75,7 @@
       </div>
     </div>
   </div>
-  <div class="section skills">
+  <div class="section skills" id="skills-section">
     <h1 class="skills-title">Professional experience and education</h1>
     <!--  card -->
     <div class="skill-card-header skill-card">
@@ -79,11 +84,11 @@
         <p class='skill-card-header-text duration'>July 2022-Present</p>
       </div>
       <button class="skills-card-header-button" id="youngButton" onclick="expandSkillCard(this)"><img class="icon"
-          src="add.png"></img></button>
+          src="../sourse/add.png"></img></button>
     </div>
     <div class="skill-card-body skill-card hidden" id="young">
       <div class="location">
-        <image src="location-pin.svg"></image>
+        <image src="../sourse/location-pin.svg"></image>
         <p class="location-text small-body-text">Minsk, Belarus</p>
       </div>
       <div class="skill-description">
@@ -109,7 +114,7 @@
             </div>
           </div>
         </div>
-        <image src="Group 129.svg"></image>
+        <image src="../sourse/Group 129.svg"></image>
       </div>
     </div>
     <!-- end  card -->
@@ -120,11 +125,11 @@
         <p class='skill-card-header-text duration'>June 2022-September 2022</p>
       </div>
       <button class="skills-card-header-button" id="tradeicsButton" onclick="expandSkillCard(this)"><img class="icon"
-          src="add.png"></img></button>
+          src="../sourse/add.png"></img></button>
     </div>
     <div class="skill-card-body skill-card hidden" id="tradeics">
       <div class="location">
-        <image src="location-pin.svg"></image>
+        <image src="../sourse/location-pin.svg"></image>
         <p class="location-text small-body-text">Minsk, Belarus</p>
       </div>
       <div class="skill-description">
@@ -137,7 +142,7 @@
             transactions are recorded.
             </p>
         </div>
-        <image src="Ellipse 3.svg"></image>
+        <image src="../sourse/Ellipse 3.svg"></image>
       </div>
     </div>
     <!-- end -->
@@ -148,7 +153,7 @@
         <p class='skill-card-header-text duration'>2018-2019</p>
       </div>
       <button class="skills-card-header-button" id="youTubeButton" onclick="expandSkillCard(this)"><img class="icon"
-          src="add.png"></img></button>
+          src="../sourse/add.png"></img></button>
     </div>
     <div class="skill-card-body skill-card hidden" id="youTube">
       <div class="skill-description">
@@ -167,11 +172,11 @@
         <p class='skill-card-header-text duration'>2019-2023</p>
       </div>
       <button class="skills-card-header-button" id="bsuirButton" onclick="expandSkillCard(this)"><img class="icon"
-          src="add.png"></img></button>
+          src="../sourse/add.png"></img></button>
     </div>
     <div class="skill-card-body skill-card hidden" id="bsuir">
       <div class="location">
-        <image src="location-pin.svg"></image>
+        <image src="../sourse/location-pin.svg"></image>
         <p class="location-text small-body-text">Minsk, Belarus</p>
       </div>
       <div class="skill-description">
@@ -179,7 +184,7 @@
           <p class="medium-body-text">Faculty of Computer-Aided Design. Bachelor's degree in Engineering. Specialty -Engineering and Psychology in IT.
             </p>
         </div>
-        <image src="Ellipse 2.svg"></image>
+        <image src="../sourse/Ellipse 2.svg"></image>
       </div>
     </div>
     <!-- end -->
@@ -198,7 +203,7 @@
     </div>  
     <!-- end -->
   </div>
-  <div class="section section-contact-info">
+  <div class="section section-contact-info" id="contacts-section">
     <div class="contact-info">
       <!-- section-1 можно перенести в section наверное -->
     <h3 class="main-section-h1">Let’s connect!</h3>
@@ -208,11 +213,11 @@
     </div>
     <div class="links">
       <div class="link-item main-section-h1">
-<img class ="contact-link-img " src="linkedin.svg">
+<img class ="contact-link-img " src="../sourse/linkedin.svg">
 <a class="contact-link" href="https://www.linkedin.com/in/zabaleraa/" target="_blank">LinkedIn</a>
       </div>
       <div class="link-item">
-        <img class ="contact-link-img " src="telegram.svg">
+        <img class ="contact-link-img " src="../sourse/telegram.svg">
 <a class="contact-link" href="https://t.me/zabaleraa" target="_blank">Telegram</a>
       </div>
     </div>
@@ -220,8 +225,7 @@
   <div class="section footer"> 
     <p class=footer-text>© 2022 Valeriya Zabavskaya made with love in Minsk<br>Developed by @ektrshha</p>
   </div>
-  <script src="script.js"></script>
-
+  
 </body>
 
 </html>

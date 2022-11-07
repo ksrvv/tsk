@@ -709,6 +709,8 @@ a:visited {
         font-size: 16px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     h3 {
         font-size: 32px;
@@ -1005,6 +1007,8 @@ a:visited {
         font-size: 14px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     h3 {
         font-size: 30px;
@@ -1014,6 +1018,8 @@ a:visited {
     .young-by {
         font-family: 'San Francisco Pro Display';
         font-weight: 600;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .card-text {
         font-size: 8px;

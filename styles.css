@@ -16,6 +16,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     overflow-x: hidden;
     width: 100vw;
@@ -206,6 +207,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     background-color: #434088;
+
 }
 .study-card-header {
     background-color: #745D98;
@@ -214,13 +216,17 @@ h3 {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    text-align: left;
 }
 .text {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 93%;
-    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
 }
 .skills-card-header-button {
     background-color: transparent;
@@ -381,7 +387,7 @@ a:visited {
     }
     .header {
         width: 100%;
-        min-height: 160px;
+        min-height: 140px;
         height: auto;
         position: fixed;
         left: 0px;
@@ -592,7 +598,7 @@ a:visited {
     }
     .header {
         width: 100%;
-        min-height: 160px;
+        min-height: 120px;
         height: auto;
         position: fixed;
         left: 0px;
@@ -846,7 +852,7 @@ a:visited {
         height: 50px;
     }
     .contact-link {
-        font-size: 29px;
+        font-size: 25px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         padding-left: 7px;
@@ -881,3 +887,309 @@ a:visited {
         display: none;
     }
 }
+@media only screen and (max-width: 300px){
+    .header {
+        width: 100%;
+        min-height: 90px;
+        height: auto;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background-color: rgba(24, 24, 27, 0.6);
+        z-index: 10;
+    }
+   
+    .active {
+        background-color: rgba(24, 24, 27, 0.99);
+    }
+    .header-content {
+        display: block;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 6%;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        width: auto;
+        height: auto;
+    }
+    .top-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .disabled {
+        display: none;
+    }
+    .nav {
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    .nav ul {
+        display: flex;
+        flex-flow: row nowrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 5% 0;
+        list-style: none;
+        height: 100vh;
+        width: 100%;
+    }
+    .nav li {
+        margin-right: 20px;
+        padding-top: 3%;
+    }
+    .nav li:last-child {
+        margin-right: 0;
+    }
+    .nav-item {
+        padding: 8px 10px;
+    }
+    .nav-item:hover {
+        color: #908AFF;
+        cursor: pointer;
+    }
+    nav a.mPS2id-highlight {
+        color: #908AFF;
+    }
+    h1 {
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .main-section-h1 {
+        padding-bottom: 50px;
+        padding-top: 80px;
+        width: 90%;
+        height: fit-content;
+    }
+    .body-text {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        width: 90%;
+        height: fit-content;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 5vw;
+    }
+    .card {
+        background-color: rgba(47, 47, 50, 0.9);
+        width: 80vw;
+        height: auto;
+        border-radius: 13px;
+        padding: 0 0 1% 0;
+        margin-bottom: 5%;
+    }
+    .card:hover {
+        transform: scale(1.05);
+    }
+    h2 {
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .young-by {
+        font-family: 'San Francisco Pro Display';
+        font-weight: 600;
+    }
+    .card-text {
+        font-size: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        padding: 1% 2% 1% 2%;
+    }
+    .card-link {
+        padding-top: 7px;
+    }
+    .card-link:active {
+        color: #908AFF;
+        cursor: pointer;
+    }
+    .will-be-edited {
+        font-family: 'michelle digital handwritten';
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .skills-title {
+        width: 90%;
+        font-size: 32px;
+        text-align: left;
+        padding-bottom: 5vh;
+    }
+    .skill-card {
+        min-height: 55px;
+        height: fit-content;
+        width: 90%;
+        border-radius: 10px;
+        padding: 2%;
+        margin-bottom: 20px;
+    }
+    .skill-card-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #434088;
+    }
+    .study-card-header {
+        background-color: #745D98;
+    }
+    .skill-card-header-text {
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    .duration {
+        font-size: 10px;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 93%;
+        /* margin: auto; */
+    }
+    .skills-card-header-button {
+        background-color: transparent;
+        border: transparent;
+        margin-right: 2%;
+        cursor: pointer;
+    }
+    .icon {
+        width: 8.47px;
+        height: 8.47px;
+    }
+    .medium-body-text {
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    .skill-visualization-container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .skill-visualization-item {
+        color: #FFFFFF;
+        border-radius: 16px;
+        background-color: #9550CD;
+        width: fit-content;
+        /* height: 28px; */
+        padding: 2% 5%;
+        margin: 5% 1% 1% 1%;
+    }
+    .hidden {
+        display: none;
+    }
+    .contact-section-body-text {
+        width: 90%;
+    }
+    .mail-link {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        background: linear-gradient(to left, #908AFF, #908AFF 100%);
+        background-position: 0 100%;
+        background-size: 100% 13px;
+        background-repeat: repeat-x;
+        transition: 0.5s;
+    }
+    .mail-link:active {
+        cursor: pointer;
+        background: linear-gradient(to left, #908AFF, #434088 100%);
+        background-position: 0 100%;
+        background-size: 100% 50px;
+        background-repeat: repeat-x;
+    }
+    .section-contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 9%;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .link-item {
+        display: flex;
+        flex-direction: row;
+        padding-right: 10%;
+    }
+    .contact-link-img {
+        width: 50px;
+        height: 50px;
+    }
+    .contact-link {
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        padding-left: 7px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .contact-link:hover {
+        cursor: pointer;
+        color: #908AFF;
+    }
+    .footer-text {
+        font-size: 9px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+    .footer {
+        padding-left: 0;
+    }
+    a:-webkit-any-link {
+        color: #FFFFFF;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #FFFFFF;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .hidden {
+        display: none;
+    }
+    .small-body-text {
+        font-size: 8px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    .location-pin{
+        /* margin-bottom: auto; */
+        margin-top: 1px;
+        padding-right: 1%;
+        width: 9px;
+        height: 9px;
+    }
+}
+

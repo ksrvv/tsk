@@ -176,7 +176,7 @@ h3 {
     padding: 0;
     width: 100%;
 }
-.disabled:hover {
+.disabled-card-link:hover {
     color: #FFFFFF;
 }
 .will-be-edited {
@@ -632,6 +632,9 @@ a:visited {
     .disabled {
         display: none;
     }
+    .disabled-link {
+        display: none;
+    }
     .nav {
         font-size: 24px;
         font-family: 'Poppins', sans-serif;
@@ -715,6 +718,8 @@ a:visited {
     .young-by {
         font-family: 'San Francisco Pro Display';
         font-weight: 600;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .card-text {
         font-size: 13px;

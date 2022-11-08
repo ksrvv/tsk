@@ -24,8 +24,8 @@ navs.forEach(navItem=>{
         ret()
     })
 })
-    if(evt.getAttribute('src')=="menu 1.png"){
-         evt.setAttribute('src', "cancel.png")
+    if(evt.getAttribute('src')=="list_icon.svg"){
+         evt.setAttribute('src', "cancel_icon.svg")
          nav.classList.remove("disabled") 
          header.classList.add("active")
          document.body.classList.add("lock")
@@ -35,7 +35,7 @@ navs.forEach(navItem=>{
        ret()
     }
     function ret(){
-        evt.setAttribute('src', "menu 1.png")
+        evt.setAttribute('src', "list_icon.svg")
         nav.classList.add("disabled") 
         header.classList.remove("active")
         document.body.classList.remove("lock")

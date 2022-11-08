@@ -250,6 +250,10 @@ h3 {
 .location {
     display: flex;
     flex-direction: row;
+   
+}
+.location-pin{
+    padding-right: 1%;
 }
 .location-text {
     color: #9550CD;
@@ -331,9 +335,11 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding-left: 7px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    height: 100%;
+    height: 100%; */
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .contact-link:hover {
     cursor: pointer;
@@ -365,18 +371,25 @@ a:visited {
 
 @media only screen and (max-width: 950px) and (min-width:600px) {
 
+    
     body.lock {
         overflow: hidden;
     }
-    .section {
+    
+    .section-1{
         width: 100%;
-        height: auto;
+        height: 70vh;
         background-color: #18181B;
         color: #FFFFFF;
         padding-left: 5vw;
         padding-top: 10vh;
         padding-bottom: 5vh;
         margin-bottom: -2px;
+    }
+    .section {
+       
+        height: auto;
+        
     }
     .footer {
         padding-left: 0;
@@ -583,11 +596,7 @@ a:visited {
 }
 
 /* Smartphones (вертикальная) ----------- */
-@media only screen and (max-width: 600px) {
-    body.lock {
-
-        overflow: hidden;
-    }
+@media only screen and (max-width: 600px)and (min-width:350px) {
     .section {
         width: 100%;
         height: auto;
@@ -597,6 +606,19 @@ a:visited {
         padding-top: 10vh;
         padding-bottom: 5vh;
         margin-bottom: -2px;
+    }
+    .section-1{
+        width: 100%;
+        height: 80vh;
+        background-color: #18181B;
+        color: #FFFFFF;
+        padding-left: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        margin-bottom: -5px;
+    }
+    body.lock {
+        overflow: hidden;
     }
     .header {
         width: 100%;
@@ -624,6 +646,8 @@ a:visited {
         cursor: pointer;
         width: auto;
         height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .top-container {
         display: flex;
@@ -866,9 +890,9 @@ a:visited {
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         padding-left: 7px;
-        display: flex;
-        align-items: center;
-        height: 100%;
+        /* display: flex; */
+       margin-top: auto;
+       margin-bottom: auto;
     }
     .contact-link:hover {
         cursor: pointer;
@@ -897,7 +921,27 @@ a:visited {
         display: none;
     }
 }
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 350px){
+    section {
+        width: 100%;
+        height: auto;
+        background-color: #18181B;
+        color: #FFFFFF;
+        padding-left: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        margin-bottom: -2px;
+    }
+    .section-1{
+        width: 100%;
+        height: 80vh;
+        background-color: #18181B;
+        color: #FFFFFF;
+        padding-left: 5vw;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        margin-bottom: -5px;
+    }
     .header {
         width: 100%;
         min-height: 90px;
@@ -925,6 +969,8 @@ a:visited {
         cursor: pointer;
         width: auto;
         height: auto;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .top-container {
         display: flex;
@@ -1163,9 +1209,11 @@ a:visited {
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         padding-left: 7px;
-        display: flex;
+        /* display: flex;
         align-items: center;
-        height: 100%;
+        height: 100%; */
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .contact-link:hover {
         cursor: pointer;
@@ -1197,13 +1245,6 @@ a:visited {
         font-size: 8px;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
-    }
-    .location-pin{
-        /* margin-bottom: auto; */
-        margin-top: 1px;
-        padding-right: 1%;
-        width: 9px;
-        height: 9px;
     }
 }
 

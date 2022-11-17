@@ -64,8 +64,8 @@ body {
 .nav {
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #FFFFFF;
+    font-weight: 500;
+    /* color: #FFFFFF; */
 }
 .nav ul {
     display: flex;
@@ -81,6 +81,7 @@ body {
     margin-right: 0;
 }
 .nav-item {
+    text-decoration: none;
     padding: 8px 10px;
 }
 .nav-item:hover {
@@ -171,6 +172,7 @@ h3 {
 }
 .card-link {
     padding-top: 7px;
+    text-decoration: none;
 }
 .card-link:hover {
     color: #908AFF;
@@ -301,6 +303,8 @@ h3 {
     display: none;
 }
 .mail-link {
+    text-decoration: none;
+    color: #FFFFFF;
     font-size: 47px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -341,6 +345,8 @@ h3 {
     /* display: flex;
     align-items: center;
     height: 100%; */
+    text-decoration: none;
+    color: #FFFFFF;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -359,8 +365,8 @@ h3 {
 }
 a:-webkit-any-link {
     color: #FFFFFF;
-    cursor: pointer;
-    text-decoration: none;
+    /* cursor: pointer;
+    text-decoration: none; */
 }
 a:visited {
     color: #FFFFFF;

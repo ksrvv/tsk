@@ -59,6 +59,7 @@ function getToResume(){
 // })
 // e.preventDefault();
 // }
+f
 (function($){
     $(window).on("load",function(){
         $("nav a").mPageScroll2id({

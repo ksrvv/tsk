@@ -527,7 +527,7 @@ margin: auto ;
 
 .mail-link:hover {
     cursor: pointer;
-    background: linear-gradient(to left, #908AFF, #FCD6F6 100%);
+    background: linear-gradient(to left, rgba(144, 138, 225, 0.4), #FCD6F6 100%);
     background-position: 0 100%;
     background-size: 100% 50px;
     background-repeat: repeat-x;

@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="youngby.css">
-    
-    <title>zabaleraa.com</title>
+   
+<title>zabaleraa.com</title>
 
 </head>
 
@@ -20,7 +24,7 @@
             <p class="logo-text purple">leraa</p>  
             </div>
             <div class="menu-icon"  >
-              <img src="list_icon.svg" onclick="showMenu(this)" id="menuIcon">              
+              <img src="Burger Icon YB.svg" onclick="showMenu(this)" id="menuIcon">              
             </div> 
           </div>
           
@@ -46,11 +50,11 @@
                 <p class="body-text">An educational project aimed at making tutoring more affordable for everyone.</p>
             </div>
             <div class="main-info-item">
-                <h3 class="bold">Timeline: </h3>
+                <h3 class="bold h2-in-adaptive">Timeline: </h3>
                 <p class="body-text">July 2022-October 2022</p>
             </div>
             <div class="main-info-item">
-                <h3 class="bold">My role:</h3>
+                <h3 class="bold h2-in-adaptive">My role:</h3>
                 <p class="body-text">Solo UX/UI Designer for a startup</p>
             </div>
         </div>
@@ -101,9 +105,15 @@
         <h2>Tutors college students!</h2> 
     </div>
     <div class="solution-img">
-        <img class="solution-img-img" src="Group 155.svg">
-        <img class="solution-img-img" src="Group 154.svg">
-        <img class="solution-img-img" src="Group 135 (1).svg">
+ 
+        <img class="solution-img-img disabled" src="Group 155.svg">
+        <img class="solution-img-img disabled" src="Group 154.svg">
+        <img class="solution-img-img disabled" src="Group 135 (1).svg">
+    </div>
+        <div class="solution-img-2 disabled-in-desktop">
+        <img class="solution-img-img" src="Solution1.svg">
+        <img class="solution-img-img" src="Solution2 (1).svg">
+        <img class="solution-img-img " src="Solution3.svg">
     </div>
     <div class="section-border with-mrgin-top">
         <div class="line-border ">
@@ -155,7 +165,7 @@
         </div>
     </div>
     <p  class="body-text">I analyzed the 3 most popular websites in the field of tutoring on the Belarusian market. All these services provide tutors, but these are either group classes with tutors or classes with experienced, expensive tutors. There is an analog on the American market - go student, but it is not localized for Belarus. This then became my opportunity for the solution.</p>
-<div class="images">
+<div class="images ">
     <div class="competive-image">
         <image class="competive-image-image" src="image 2.svg"> </image>
     </div>
@@ -188,10 +198,22 @@
 <h2>User interview</h2>
 <h3 class="bold user-interwiew" >I conducted interviews with 6 people, 2 of them were parents, 2 students and 2 college student tutors.</h3>
 <p class="body-text">Mostly, students entering the university want to be financially independent from their parents, but face the problem of finding a part-time job due to full-time study.</p>
+<h2 class="highlighted-title disabled-in-desktop">Research questions:</h2>
+<p class ="body-text disabled-in-desktop">
+    1. Tell me about your experience of finding a tutor as a high school student.<br>
+    2. What do you think about online education? Have you had any online learning experience?<br>
+    3. What do you think about the problem of finding part-time jobs for students who study full-time?<br>
+    4. Tell me about your experience of finding a tutor as a parent.<br>
+    5. Would you trust a college student tutor who has recently been a high school student himself but has academic achievements?<br>
+    6. Does the price per lesson affect the choice of a tutor?<br>
+    7. As a tutor, what services do you use for work?<br>
+    8. How is it more convenient for you to interact with a tutor/student?<br>
+    </p>
 </div>
-<div class="solution-img ">
+<div class="solution-img disabled-in-adaptive">
     <img class="solution-img-img" src="meeting.svg">
 </div>
+
 <div class="section-border with-mrgin-top">
     <div class="line-border ">
 
@@ -208,11 +230,28 @@
         </div>
         
     </div>
+    <h2 class="highlighted-title">Major Insights</h2>
+    <h2 class="disabled-in-desktop">User interview</h2>
+<p class ="body-text disabled-in-desktop">
+    I conducted interviews with 6 people, 2 of them were parents, 2 students and 2 college student tutors.
+    </p>
 </div>
 
-<div class="solution-img ">
+<div class="solution-img disabled-in-adaptive">
     <img class="solution-img-img" src="Major-insights.svg">
 </div>
+<div class="themes disabled-in-desktop">
+   <div class="swiper mySwiper ">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide"><img width="100%"src="Theme1.svg"></div>
+      <div class="swiper-slide"><img  width="100%"src="Theme2.svg"></div>
+      <div class="swiper-slide"><img  width="100%"src="Theme3.svg"></div>
+
+    </div>
+  </div> 
+</div>
+
+
 <div class="section-border with-mrgin-top">
     <div class="line-border ">
 
@@ -402,6 +441,10 @@
 
 
 </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 <script src="script-young.js"></script>
 </body>
 

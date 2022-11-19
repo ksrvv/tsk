@@ -102,4 +102,34 @@ function hideResearches(){
         })
     }
 }
-
+function showMenu(evt){
+    const nav = document.querySelector(".nav")
+     const header = document.querySelector(".header") 
+ var navs = document.querySelectorAll(".nav-item")
+ navs.forEach(navItem=>{
+     navItem.addEventListener("click", function (){
+         ret()
+     })
+ })
+     if(evt.getAttribute('src')=="Burger Icon YB.svg"){
+          evt.setAttribute('src', "X-MarkYB.svg")
+          nav.classList.remove("disabled") 
+          header.classList.add("active")
+          document.body.classList.add("lock")
+ 
+     }
+     else {
+        ret()
+     }
+     function ret(){
+         evt.setAttribute('src', "Burger Icon YB.svg")
+         nav.classList.add("disabled") 
+         header.classList.remove("active")
+         document.body.classList.remove("lock")
+     }
+ 
+ 
+  }
+  var swiper = new Swiper(".mySwiper", {
+    loop:true
+  });

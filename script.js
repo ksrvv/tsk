@@ -46,6 +46,10 @@ navs.forEach(navItem=>{
 function getToResume(){
     window.open("https://drive.google.com/file/d/1QWKV66HMQ52FxrycfnqQdmH4BJJixlSF/view?usp=drivesdk", '_blank');
 }
+function getToYoungBy(){
+    window.open("youngby.html", '_blank');
+
+}
 // const menuLinks=document.querySelectorAll(".nav-item [data-goto]");
 // menuLinks.forEach(menuLink=>{
 //     menuLink.addEventListener("click", onMenuLinkClick)
@@ -59,7 +63,7 @@ function getToResume(){
 // })
 // e.preventDefault();
 // }
-f
+
 (function($){
     $(window).on("load",function(){
         $("nav a").mPageScroll2id({

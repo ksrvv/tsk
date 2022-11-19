@@ -64,8 +64,9 @@ body {
 .nav {
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    /* color: #FFFFFF; */
+    /* font-weight: 500; */
+    font-style: normal;
+
 }
 .nav ul {
     display: flex;
@@ -83,6 +84,7 @@ body {
 .nav-item {
     text-decoration: none;
     padding: 8px 10px;
+    
 }
 .nav-item:hover {
     color: #908AFF;
@@ -287,7 +289,7 @@ h3 {
 .skill-visualization-container {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 80%;
     flex-wrap: wrap;
 }
 .skill-visualization-item {

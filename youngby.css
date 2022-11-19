@@ -47,11 +47,12 @@ body {
     padding-right: 5vw;
     padding-top: 5%;
 }
-/* .line{
-    width: 100%;
-    height: 1px;
-    background-color: #000000;
-} */
+.line-border{
+
+    /* width: 100%; */
+    height: 0.1vh;
+    background-color: rgba(144, 138, 255, 0.4);
+}
 .link:hover {
     cursor: pointer;
 
@@ -132,21 +133,18 @@ body {
 }
 
 .section-border {
-    display: flex;
+    /* display: flex; */
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    height: 1%;
 
 }
 .with-mrgin-top{
     margin-top: 2%;
     margin-bottom: 0%;
 }
-.section-border-img {
-    width: 100%;
-    margin: auto;
-    height: auto;
-}
+
 
 .main-img {
     width: 100%;
@@ -543,6 +541,10 @@ margin: auto ;
 .link-containr{
     width:90%;
     margin: 3% 0 5% 0;
+}
+iframe{
+width: 100%;
+height: 450px;
 }
 @media only screen and (max-width: 950px) and (min-width:750px){
     .section {

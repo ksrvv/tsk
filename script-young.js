@@ -38,7 +38,7 @@ function rollSlider(){
     sliderLine.style.transform = "translate(-"+count*width+"px)"
 }
 function ToMainPage(){
-    window.open("/index.html", "_self");
+    window.open("index.html", "_self");
 }
 function toResearch1(){
     window.open("https://files.eric.ed.gov/fulltext/ED378278.pdf", '_blank');

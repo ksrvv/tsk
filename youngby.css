@@ -799,6 +799,7 @@ justify-content: center;
         background-size: 100% 50px;
         background-repeat: repeat-x;
     }
+
 }
 @media only screen and (max-width: 500px){
     .disabled-in-desktop {
@@ -1067,4 +1068,30 @@ justify-content: center;
     background-size: 100% 50px;
     background-repeat: repeat-x;
 }
+.swipe{
+    width: auto;
+display: flex;
+justify-content: center;
+
+
+  }
+  .swipe-image{
+margin-top: -460px;
+animation-name: swipe;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+z-index: 10;
+
+  }
+.personas{
+    margin-top: -100px; 
+}
+ .hide{
+    display: none;
+  }
+  @keyframes swipe {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(20deg);}
+  }
+ 
 }

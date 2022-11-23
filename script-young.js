@@ -83,6 +83,8 @@ if(animItems.length>0){
     }
 }
 
+    
+
 function hideResearches(){
     var textArea = document.getElementById("white-paper-research");
     var researchButtons=document.querySelectorAll(".research")
@@ -130,6 +132,27 @@ function showMenu(evt){
  
  
   }
-  var swiper = new Swiper(".mySwiper", {
-    loop:true
+  var swiper = new Swiper(".mySwiperTheme", {
+    loop:true,
+    on: {
+        sliderFirstMove: function () {
+            HideSwipeAnimTheme()
+        }}
   });
+
+function HideSwipeAnimTheme() {
+var swipe =document.querySelector(".theme-sw")
+swipe.classList.add("hide")
+}
+var swiper = new Swiper(".mySwiperPers", {
+    loop:true,
+    on: {
+        sliderFirstMove: function () {
+            HideSwipeAnimPersonas()
+        }}
+  });
+
+function HideSwipeAnimPersonas() {
+var swipe =document.querySelector(".personas-sw")
+swipe.classList.add("hide")
+}

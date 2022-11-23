@@ -703,7 +703,9 @@ margin-bottom:   auto;
         transform: translateX(0);
         opacity: 100%;
     }
-    
+    .right-padd{
+        padding-right: 4%;
+    }
     .highlighted-title{
         margin: 3% 0;
         width: fit-content;
@@ -976,8 +978,9 @@ h3.bold {
 .solution-img-img.active {
     transform: translateX(0);
     opacity: 100%;
-}.adlid-in-adaptive{
-
+}
+.right-padd{
+    padding-right: 4%;
 }
 
 .highlighted-title{

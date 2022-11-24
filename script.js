@@ -1,15 +1,15 @@
 var skillCardHeaders=document.getElementsByClassName("skill-card-header")
 function expandSkillCard (e){
  var cardbody=document.getElementById(e.id.replace('Button',''))   
-    if(e.firstChild.getAttribute('src')=="add.png"){
+    if(e.firstChild.getAttribute('src')=="sourse/add.png"){
         
         cardbody.classList.remove("hidden")
- e.firstChild.setAttribute('src', 'minus.png');
+ e.firstChild.setAttribute('src', 'sourse/minus.png');
     }
    
     else {
         cardbody.classList.add("hidden")
-          e.firstChild.setAttribute('src', 'add.png');
+          e.firstChild.setAttribute('src', 'sourse/add.png');
     }
 
 }
@@ -24,8 +24,8 @@ navs.forEach(navItem=>{
         ret()
     })
 })
-    if(evt.getAttribute('src')=="list_icon.svg"){
-         evt.setAttribute('src', "cancel_icon.svg")
+    if(evt.getAttribute('src')=="sourse/list_icon.svg"){
+         evt.setAttribute('src', "sourse/cancel_icon.svg")
          nav.classList.remove("disabled") 
          header.classList.add("active")
          document.body.classList.add("lock")
@@ -35,7 +35,7 @@ navs.forEach(navItem=>{
        ret()
     }
     function ret(){
-        evt.setAttribute('src', "list_icon.svg")
+        evt.setAttribute('src', "sourse/list_icon.svg")
         nav.classList.add("disabled") 
         header.classList.remove("active")
         document.body.classList.remove("lock")

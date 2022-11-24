@@ -113,8 +113,8 @@ function showMenu(evt){
          ret()
      })
  })
-     if(evt.getAttribute('src')=="Burger Icon YB.svg"){
-          evt.setAttribute('src', "X-MarkYB.svg")
+     if(evt.getAttribute('src')=="sourse/Burger Icon YB.svg"){
+          evt.setAttribute('src', "sourse/X-MarkYB.svg")
           nav.classList.remove("disabled") 
           header.classList.add("active")
           document.body.classList.add("lock")
@@ -124,7 +124,7 @@ function showMenu(evt){
         ret()
      }
      function ret(){
-         evt.setAttribute('src', "Burger Icon YB.svg")
+         evt.setAttribute('src', "sourse/Burger Icon YB.svg")
          nav.classList.add("disabled") 
          header.classList.remove("active")
          document.body.classList.remove("lock")
